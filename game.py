@@ -52,7 +52,7 @@ def startGame(): #start game function (used in the beginning user interface)
   
   print("\nOut of Guesses! Word was "+gameWord) #ending input if players doens't get the word guess 
   print("Better luck next time..")
- 
+
 def matchCharacters(gameWord, userInput): #compares the gameword and the userinput to eachother
   colorOfWord =  ['white' for i in range(len(gameWord))] #default color of gameword will be white
   userInputList = list(userInput) #turns the user input into a list so the computer can read each letter
